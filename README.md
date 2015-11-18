@@ -21,20 +21,28 @@ Check [this tutorial](http://wiki.ros.org/rosserial_mbed/Tutorials/Using%20rosse
 
 1. Connect to your IFC6410p board (via ssh or with a screen, mouse and keyboard)
 2. In one terminal start the master node by running:
+
     ```
     roscore
     ```
+
 2. In another terminal run the rosserial serial node:
+
     ```
     rosrun rosserial_python serial_node.py /dev/ttyHS2
     ```
+
 3. Now you can list all the available topics by running on another terminal:
+
     ```
     rostopic list
     ```
+
 4. You can also connect to the ROS session running on the IFC6410p by doing on your computer:
+
     ```
     export ROS_MASTER_URI=http://<ifc6410p-ip-address>:11311
     rostopic list
     ```
+
 If the last command doesn't work, check http://wiki.ros.org/ROS/Tutorials/MultipleMachines
