@@ -1,5 +1,8 @@
 # Inforce's mbed PAC shield rosserial demo
 
+## Instalation
+
+Check [this tutorial](http://wiki.ros.org/rosserial_mbed/Tutorials/Using%20rosserial%20with%20Inforce%20MBED%20PAC%20Shield) for compiling this demo and flashing it to the mbed shield
 
 ## Subscribed Topics
 
