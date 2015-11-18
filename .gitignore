@@ -1,0 +1,8 @@
+# rosserial_mbed lib folder
+ros_lib/
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
